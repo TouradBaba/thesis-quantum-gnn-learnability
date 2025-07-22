@@ -164,6 +164,8 @@ This thesis introduces and validates a complete framework for learning full quan
 
 * [Future Work](#future-work)
 
+* [Conclusion](#conclusion)
+
 
 ## Quantum Circuit Design
 
