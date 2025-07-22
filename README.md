@@ -642,8 +642,6 @@ The following observations summarize the results of all evaluations:
 
 Future research directions include evaluating model performance on real quantum hardware to assess robustness under actual noise and device-specific imperfections. Broader circuit diversity—through varied gate sets and entanglement patterns—could reveal which structural properties most affect learnability. It is also important to analyze how different types and magnitudes of noise impact performance. Scaling to circuits with 6–8 qubits (and beyond) would help determine the limits of model generalization in higher-dimensional output spaces. Another direction is to test generalization to unseen circuit families at qubit sizes similar to those used in training, offering insight into the model’s ability to transfer across structural classes.
 
-
-
 ## Conclusion
 
 This thesis demonstrates that TransformerConv-based Graph Neural Networks can effectively learn the full output distributions of quantum circuits across varying qubit sizes, circuit types, and noise conditions. The GNN consistently outperforms a parameter-matched CNN baseline in accuracy, convergence, and scalability, especially at higher qubit counts (4–5 qubits).
